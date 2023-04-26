@@ -11,7 +11,7 @@ database: {
     path: "./database/",
     tables: ["main"]},
 disableFunctions: ['$clientToken'],
-prefix: ['!','.'],
+prefix: ['!'],//atur prefix sesuai pilihanmu
 intents: ["MessageContent","Guilds","GuildMessages","GuildMembers","GuildMessageReactions","GuildEmojisAndStickers","DirectMessageTyping","DirectMessageReactions","DirectMessages"],
 events: ["onMessage","onInteractionCreate","onFunctionError"]
 })
