@@ -4,7 +4,7 @@ const { Util } = require("aoi.js");
 const { setup } = require("aoi.parser")
 setup(Util);
 const bot = new aoijs.AoiClient({
-token: "MTEwMDQ0NjczNDA4NzM3NjkzNg.G9YPoO.EDYQRSUWqhJ2e8H71jpwycV9bDqRogeAXfkpQ0", //token
+token: "token bot kamu", //token
 database: {
     db: require("aoi.db"),
     type: "aoi.db",
@@ -20,5 +20,5 @@ bot.command({
     name: "ping",
     code: `
 🏓Pong! \`$pingms\`
-`
+` //function $ping akan menampilkan speed latency dalam milidetik
 })
