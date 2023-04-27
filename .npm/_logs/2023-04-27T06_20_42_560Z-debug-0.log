@@ -1,0 +1,117 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.5.0
+2 info using node@v18.14.2
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 12ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/container/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 2ms
+15 timing config:load Completed in 25ms
+16 timing npm:load:configload Completed in 26ms
+17 timing npm:load:mkdirpcache Completed in 0ms
+18 timing npm:load:mkdirplogs Completed in 0ms
+19 verbose title npm i dotenv
+20 verbose argv "i" "dotenv"
+21 timing npm:load:setTitle Completed in 3ms
+22 timing config:load:flatten Completed in 6ms
+23 timing npm:load:display Completed in 7ms
+24 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2023-04-27T06_20_42_560Z-
+25 verbose logfile /home/container/.npm/_logs/2023-04-27T06_20_42_560Z-debug-0.log
+26 timing npm:load:logFile Completed in 11ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 1ms
+29 timing npm:load Completed in 52ms
+30 timing arborist:ctor Completed in 1ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 1ms
+33 timing idealTree:init Completed in 309ms
+34 timing idealTree:userRequests Completed in 5ms
+35 silly idealTree buildDeps
+36 silly fetch manifest dotenv@*
+37 http fetch GET 200 https://registry.npmjs.org/dotenv 6291ms (cache miss)
+38 silly placeDep ROOT dotenv@16.0.3 OK for:  want: *
+39 timing idealTree:#root Completed in 6312ms
+40 timing idealTree:node_modules/dotenv Completed in 0ms
+41 timing idealTree:buildDeps Completed in 6315ms
+42 timing idealTree:fixDepFlags Completed in 3ms
+43 timing idealTree Completed in 6639ms
+44 timing reify:loadTrees Completed in 6641ms
+45 timing reify:diffTrees Completed in 8ms
+46 silly reify moves {}
+47 timing reify:retireShallow Completed in 3ms
+48 timing reify:createSparse Completed in 2ms
+49 timing reify:loadBundles Completed in 0ms
+50 silly audit bulk request {
+50 silly audit   '@discordjs/builders': [ '1.6.1' ],
+50 silly audit   '@discordjs/collection': [ '1.5.0' ],
+50 silly audit   '@discordjs/formatters': [ '0.3.0' ],
+50 silly audit   '@discordjs/rest': [ '1.7.0' ],
+50 silly audit   '@discordjs/util': [ '0.2.0' ],
+50 silly audit   '@sapphire/async-queue': [ '1.5.0' ],
+50 silly audit   '@sapphire/shapeshift': [ '3.8.2' ],
+50 silly audit   '@sapphire/snowflake': [ '3.4.2' ],
+50 silly audit   '@tokenizer/token': [ '0.3.0' ],
+50 silly audit   '@types/node': [ '18.16.1' ],
+50 silly audit   '@types/ws': [ '8.5.4' ],
+50 silly audit   'aoi.db': [ '1.1.0' ],
+50 silly audit   'aoi.js': [ '6.1.1' ],
+50 silly audit   'aoi.parser': [ '1.2.5' ],
+50 silly audit   axios: [ '0.24.0' ],
+50 silly audit   busboy: [ '1.6.0' ],
+50 silly audit   'dbdjs.db': [ '2.0.2' ],
+50 silly audit   'discord-api-types': [ '0.37.40' ],
+50 silly audit   'discord.js': [ '14.9.0' ],
+50 silly audit   'fast-deep-equal': [ '3.1.3' ],
+50 silly audit   'file-type': [ '18.3.0' ],
+50 silly audit   'follow-redirects': [ '1.15.2' ],
+50 silly audit   fs: [ '0.0.1-security' ],
+50 silly audit   ieee754: [ '1.2.1' ],
+50 silly audit   inherits: [ '2.0.4' ],
+50 silly audit   lodash: [ '4.17.21' ],
+50 silly audit   'lodash.snakecase': [ '4.1.1' ],
+50 silly audit   'peek-readable': [ '5.0.0' ],
+50 silly audit   'readable-stream': [ '3.6.2' ],
+50 silly audit   'readable-web-to-node-stream': [ '3.0.2' ],
+50 silly audit   'safe-buffer': [ '5.2.1' ],
+50 silly audit   streamsearch: [ '1.1.0' ],
+50 silly audit   string_decoder: [ '1.3.0' ],
+50 silly audit   strtok3: [ '7.0.0' ],
+50 silly audit   'tiny-typed-emitter': [ '2.1.0' ],
+50 silly audit   'token-types': [ '5.0.1' ],
+50 silly audit   'ts-mixer': [ '6.0.3' ],
+50 silly audit   tslib: [ '2.5.0' ],
+50 silly audit   typescript: [ '4.9.5' ],
+50 silly audit   undici: [ '5.22.0' ],
+50 silly audit   'util-deprecate': [ '1.0.2' ],
+50 silly audit   ws: [ '8.13.0' ],
+50 silly audit   dotenv: [ '16.0.3' ]
+50 silly audit }
+51 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz. Extracting by manifest.
+52 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 274ms
+53 timing auditReport:getReport Completed in 285ms
+54 silly audit report {}
+55 timing auditReport:init Completed in 0ms
+56 timing reify:audit Completed in 287ms
+57 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz 4679ms (cache miss)
+58 timing reifyNode:node_modules/dotenv Completed in 4700ms
+59 timing reify:unpack Completed in 4700ms
+60 timing reify:unretire Completed in 1ms
+61 timing build:queue Completed in 2ms
+62 timing build:deps Completed in 4ms
+63 timing build Completed in 4ms
+64 timing reify:build Completed in 5ms
+65 timing reify:trash Completed in 0ms
+66 timing reify:save Completed in 32ms
+67 timing reify Completed in 11442ms
+68 silly ADD node_modules/dotenv
+69 timing command:i Completed in 11460ms
+70 verbose exit 0
+71 timing npm Completed in 11539ms
+72 info ok

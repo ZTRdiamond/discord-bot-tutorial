@@ -1,0 +1,126 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.5.0
+2 info using node@v18.14.2
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 6ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 12ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/home/container/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 2ms
+15 timing config:load Completed in 27ms
+16 timing npm:load:configload Completed in 27ms
+17 timing npm:load:mkdirpcache Completed in 0ms
+18 timing npm:load:mkdirplogs Completed in 1ms
+19 verbose title npm i aoi.parser
+20 verbose argv "i" "aoi.parser"
+21 timing npm:load:setTitle Completed in 3ms
+22 timing config:load:flatten Completed in 7ms
+23 timing npm:load:display Completed in 8ms
+24 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2023-04-26T05_56_37_636Z-
+25 verbose logfile /home/container/.npm/_logs/2023-04-26T05_56_37_636Z-debug-0.log
+26 timing npm:load:logFile Completed in 10ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 54ms
+30 timing arborist:ctor Completed in 2ms
+31 silly logfile done cleaning log files
+32 timing idealTree:init Completed in 112ms
+33 timing idealTree:userRequests Completed in 4ms
+34 silly idealTree buildDeps
+35 silly fetch manifest aoi.parser@*
+36 timing arborist:ctor Completed in 2ms
+37 http fetch GET 200 https://registry.npmjs.org/aoi.parser 1362ms (cache miss)
+38 silly placeDep ROOT aoi.parser@1.2.5 OK for:  want: *
+39 silly fetch manifest typescript@^4.9.4
+40 http fetch GET 200 https://registry.npmjs.org/typescript 1300ms (cache miss)
+41 timing idealTree:#root Completed in 2906ms
+42 silly placeDep ROOT typescript@4.9.5 OK for: aoi.parser@1.2.5 want: ^4.9.4
+43 timing idealTree:node_modules/aoi.parser Completed in 4ms
+44 timing idealTree:node_modules/typescript Completed in 0ms
+45 timing idealTree:buildDeps Completed in 2914ms
+46 timing idealTree:fixDepFlags Completed in 2ms
+47 timing idealTree Completed in 3038ms
+48 timing reify:loadTrees Completed in 3040ms
+49 timing reify:diffTrees Completed in 6ms
+50 silly reify moves {}
+51 timing reify:retireShallow Completed in 3ms
+52 timing reify:createSparse Completed in 2ms
+53 timing reify:loadBundles Completed in 0ms
+54 silly audit bulk request {
+54 silly audit   '@discordjs/builders': [ '1.6.1' ],
+54 silly audit   '@discordjs/collection': [ '1.5.0' ],
+54 silly audit   '@discordjs/formatters': [ '0.3.0' ],
+54 silly audit   '@discordjs/rest': [ '1.7.0' ],
+54 silly audit   '@discordjs/util': [ '0.2.0' ],
+54 silly audit   '@sapphire/async-queue': [ '1.5.0' ],
+54 silly audit   '@sapphire/shapeshift': [ '3.8.2' ],
+54 silly audit   '@sapphire/snowflake': [ '3.4.2' ],
+54 silly audit   '@tokenizer/token': [ '0.3.0' ],
+54 silly audit   '@types/node': [ '18.16.1' ],
+54 silly audit   '@types/ws': [ '8.5.4' ],
+54 silly audit   'aoi.db': [ '1.1.0' ],
+54 silly audit   'aoi.js': [ '6.1.1' ],
+54 silly audit   axios: [ '0.24.0' ],
+54 silly audit   busboy: [ '1.6.0' ],
+54 silly audit   'dbdjs.db': [ '2.0.2' ],
+54 silly audit   'discord-api-types': [ '0.37.40' ],
+54 silly audit   'discord.js': [ '14.9.0' ],
+54 silly audit   'fast-deep-equal': [ '3.1.3' ],
+54 silly audit   'file-type': [ '18.3.0' ],
+54 silly audit   'follow-redirects': [ '1.15.2' ],
+54 silly audit   fs: [ '0.0.1-security' ],
+54 silly audit   ieee754: [ '1.2.1' ],
+54 silly audit   inherits: [ '2.0.4' ],
+54 silly audit   lodash: [ '4.17.21' ],
+54 silly audit   'lodash.snakecase': [ '4.1.1' ],
+54 silly audit   'peek-readable': [ '5.0.0' ],
+54 silly audit   'readable-stream': [ '3.6.2' ],
+54 silly audit   'readable-web-to-node-stream': [ '3.0.2' ],
+54 silly audit   'safe-buffer': [ '5.2.1' ],
+54 silly audit   streamsearch: [ '1.1.0' ],
+54 silly audit   string_decoder: [ '1.3.0' ],
+54 silly audit   strtok3: [ '7.0.0' ],
+54 silly audit   'tiny-typed-emitter': [ '2.1.0' ],
+54 silly audit   'token-types': [ '5.0.1' ],
+54 silly audit   'ts-mixer': [ '6.0.3' ],
+54 silly audit   tslib: [ '2.5.0' ],
+54 silly audit   undici: [ '5.22.0' ],
+54 silly audit   'util-deprecate': [ '1.0.2' ],
+54 silly audit   ws: [ '8.13.0' ],
+54 silly audit   'aoi.parser': [ '1.2.5' ],
+54 silly audit   typescript: [ '4.9.5' ]
+54 silly audit }
+55 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz. Extracting by manifest.
+56 silly tarball no local data for aoi.parser@https://registry.npmjs.org/aoi.parser/-/aoi.parser-1.2.5.tgz. Extracting by manifest.
+57 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 266ms
+58 timing auditReport:getReport Completed in 275ms
+59 silly audit report {}
+60 timing auditReport:init Completed in 0ms
+61 timing reify:audit Completed in 276ms
+62 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz 3489ms (cache miss)
+63 timing reifyNode:node_modules/typescript Completed in 4561ms
+64 http fetch GET 200 https://registry.npmjs.org/aoi.parser/-/aoi.parser-1.2.5.tgz 6103ms (cache miss)
+65 timing reifyNode:node_modules/aoi.parser Completed in 6125ms
+66 timing reify:unpack Completed in 6126ms
+67 timing reify:unretire Completed in 0ms
+68 timing build:queue Completed in 1ms
+69 timing build:link:node_modules/typescript Completed in 5ms
+70 timing build:link Completed in 5ms
+71 timing build:deps Completed in 7ms
+72 timing build Completed in 7ms
+73 timing reify:build Completed in 8ms
+74 timing reify:trash Completed in 0ms
+75 timing reify:save Completed in 37ms
+76 timing reify Completed in 9265ms
+77 silly ADD node_modules/typescript
+78 silly ADD node_modules/aoi.parser
+79 timing command:i Completed in 9282ms
+80 verbose exit 0
+81 timing npm Completed in 9364ms
+82 info ok
