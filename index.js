@@ -1,10 +1,13 @@
 const aoijs = require("aoi.js");
+const dotenv = require('dotenv');
+const config = require('./config.json');
+dotenv.config()
 
 const { Util } = require("aoi.js");
 const { setup } = require("aoi.parser")
 setup(Util);
 const bot = new aoijs.AoiClient({
-token: "MTEwMDQ0NjczNDA4NzM3NjkzNg.G9YPoO.EDYQRSUWqhJ2e8H71jpwycV9bDqRogeAXfkpQ0", //token
+token: config.token, //token
 database: {
     db: require("aoi.db"),
     type: "aoi.db",
@@ -22,3 +25,6 @@ bot.command({
 🏓Pong! \`$pingms\`
 `
 })
+
+const loader = new aoijs.LoadCommands(bot);
+loader.load(bot.cmd, "./commands/")
