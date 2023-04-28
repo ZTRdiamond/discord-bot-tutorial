@@ -22,8 +22,10 @@ token: config.token,
 
 Dan jika kamu ingin menggunakan .env, Kamu bisa ubah kode bagian token seperti dibawah
 ```js
-token: process.env.TOKEN
+token: process.env.TOKEN,
 ```
 
 ***Note**: bila tidak mengerti jangan ubah-ubah terlalu banyak
+
+Join server discord [Zanixon Group™](https://ztrdiamond.my.to/invite.html) untuk support!
 
