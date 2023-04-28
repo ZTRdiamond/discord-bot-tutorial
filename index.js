@@ -6,12 +6,9 @@ dotenv.config()
 const { Util } = require("aoi.js");
 const { setup } = require("aoi.parser")
 setup(Util);
+
 const bot = new aoijs.AoiClient({
-<<<<<<< HEAD
 token: config.token, //token
-=======
-token: "token bot kamu", //token
->>>>>>> 11b38bc1d4f8fc478de570f065d9768b8cf17d25
 database: {
     db: require("aoi.db"),
     type: "aoi.db",
@@ -27,13 +24,8 @@ bot.command({
     name: "ping",
     code: `
 🏓Pong! \`$pingms\`
-<<<<<<< HEAD
-`
+`//function $ping akan menampilkan speed latency dalam milidetik
 })
 
 const loader = new aoijs.LoadCommands(bot);
 loader.load(bot.cmd, "./commands/")
-=======
-` //function $ping akan menampilkan speed latency dalam milidetik
-})
->>>>>>> 11b38bc1d4f8fc478de570f065d9768b8cf17d25
