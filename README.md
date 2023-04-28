@@ -4,7 +4,7 @@ Series tutorial bot discord [YouTube](https://youtube.com/playlist?list=PLwDBhnW
 ### Tutorial penggunaan
 
 - Clone repo
-```js
+```
 git clone https://github.com/ZTRdiamond/discord-bot-tutorial
 ```
 
@@ -14,6 +14,7 @@ npm install
 ```
 
 - Atur token di config.json atau .env
+
 Jika kamu mau menggunakan config.json untuk meletakan token, Kamu bisa ubah kode bagian token seperti dibawah
 ```js
 token: config.token,
